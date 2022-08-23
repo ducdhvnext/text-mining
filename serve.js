@@ -4,7 +4,7 @@ const natural = require('natural');
 const bodyParser = require('body-parser');
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
-const port = 3000;
+const port = 80;
 
 app.get('/', (req, res) => {
     res.writeHead(200, {
